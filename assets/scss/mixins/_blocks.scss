@@ -1,0 +1,25 @@
+@mixin block($h:50px) {
+    height: $h;
+    display: block;
+}
+
+@mixin circle($w:50px) {
+    width: $w;
+    height: $w;
+    display: block;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+.b-10 {@include block(10px);}
+.b-20 {@include block(20px);}
+.b-30 {@include block(30px);}
+.b-40 {@include block(40px);}
+.b-50 {@include block(50px);}
+.b-60 {@include block(60px);}
+.b-70 {@include block(70px);}
+.b-80 {@include block(80px);}
+.b-90 {@include block(90px);}
+.b-100 {@include block(100px);}

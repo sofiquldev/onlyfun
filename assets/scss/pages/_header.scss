@@ -1,0 +1,116 @@
+.left-sidebar, .right-sidebar, .timeline {
+  &-header {
+    height: 64px;
+    margin-bottom: 13px;
+  }
+}
+
+
+.left-sidebar, .right-sidebar {
+  min-width: 260px;
+  // position: fixed;
+
+  &-header {
+    display: flex;
+    align-items: center;
+    #menuToggler {
+      padding: 5px 10px;
+      margin-right: 5px;
+      display: none;
+      @include mq(768) {
+        display: block;
+      }
+      i {
+        font-size: 24px;
+      }
+    }
+    .brand {
+      img {
+        width: 125px;
+      }
+    }
+
+    .search-box {
+      width: 100%;
+      height: 40px;
+      position: relative;
+      input {
+        width: 100%;
+        // height: 40px;
+        border-radius: 99px;
+        background-color: #f7f9fa;
+        border: none;
+        padding: 10px 10px 10px 38px;
+      }
+      i {
+        font-size: 16px;
+        display: block;
+        position: absolute;
+        top: 11px;
+        left: 15px;
+      }
+    }
+  }
+}
+
+.right-sidebar-header {
+  border-bottom: 1px solid #cecfd0;
+}
+
+
+
+// timeline header start
+.timeline-header {
+  display: flex;
+  align-items: center;
+  // padding: 18px 0 0 0;
+  border-bottom: 1px solid #cecfd0;
+  nav {
+    ul {
+      margin-bottom: 0;
+      li {
+        a {
+          color: $primaryTextColor;
+          font-weight: 600;
+          font-size: 18px;
+          padding: 18px 0;
+          border-bottom: 2px solid $primaryColor;
+          margin-bottom: 0;
+          &:hover {
+            color: $primaryColor;
+          }
+        }
+      }
+    }
+  }
+  
+  .actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+    .all {
+      height: 20px;
+      color: $primaryColor;
+      background-color: #f9bfd6;
+      padding: 0px 10px;
+      font-size: 14px;
+      line-height: 20px;
+      border: none;
+      border-radius: 99px;
+      cursor: pointer;
+      &:hover {
+        background-color: $primaryColor;
+        color: #fff;
+      }
+    }
+    a {
+      font-size: 18px;
+      color: $primaryTextColor;
+      &:hover {
+        color: $primaryColor;
+      }
+    }
+  }
+  
+} // timeline-header

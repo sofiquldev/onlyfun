@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+
+body {
+  font-family: $poppins;
+  font-size: 12px;
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: none;
+    outline: none;
+  }
+}
+
+input, textarea, button {
+  border: none;
+  outline: none;
+  &:focus, &:active {
+    border: none;
+    outline: none;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
