@@ -115,12 +115,35 @@
     } // content
     .images {
       border-radius: 10px;
+      position: relative;
+      i {
+        @include circle(74px);
+        position: absolute;
+        color: #fff;
+        background-color: rgba(42, 42, 42, 0.6);
+        font-size: 36px;
+        line-height: 74px;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 312ms all;
+        border: 2px solid transparent;
+        &:hover {
+          border: 2px solid $primaryColor;
+        }
+      }
     } //
     .meta-bottom {
       display: flex;
       gap: 20px;
       color: #2a2a2a;
       margin-top: 15px;
+
+      @include mq(768) {
+        gap: 10px;
+      }
       a {
         color: #2a2a2a;
         cursor: pointer;
@@ -136,6 +159,9 @@
       i {
         font-size: 12px;
         margin-right: 8px;
+        @include mq(768) {
+          margin-right: 4px;
+        }
       }
       * {
         line-height: 16px;
@@ -148,8 +174,13 @@
           text-align: center;
           border: 1px solid #2a2a2a;
           border-radius: 50%;
-          margin-right: 5px;
+          margin-right: 4px;
         }
+      }
+      .add-bookmark {
+        font-size: 16px;
+        margin-left: auto;
+
       }
     } // meta-bottom
   } //timeline single post

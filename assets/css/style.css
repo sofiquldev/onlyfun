@@ -8237,13 +8237,37 @@ header {
   margin-bottom: 12px; }
 
 .timeline .single-post .images {
-  border-radius: 10px; }
+  border-radius: 10px;
+  position: relative; }
+  .timeline .single-post .images i {
+    width: 74px;
+    height: 74px;
+    display: block;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    background-color: rgba(42, 42, 42, 0.6);
+    font-size: 36px;
+    line-height: 74px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: 312ms all;
+    border: 2px solid transparent; }
+    .timeline .single-post .images i:hover {
+      border: 2px solid #FF3682; }
 
 .timeline .single-post .meta-bottom {
   display: flex;
   gap: 20px;
   color: #2a2a2a;
   margin-top: 15px; }
+  @media screen and (max-width: 768px) {
+    .timeline .single-post .meta-bottom {
+      gap: 10px; } }
   .timeline .single-post .meta-bottom a {
     color: #2a2a2a;
     cursor: pointer; }
@@ -8254,6 +8278,9 @@ header {
   .timeline .single-post .meta-bottom i {
     font-size: 12px;
     margin-right: 8px; }
+    @media screen and (max-width: 768px) {
+      .timeline .single-post .meta-bottom i {
+        margin-right: 4px; } }
   .timeline .single-post .meta-bottom * {
     line-height: 16px; }
   .timeline .single-post .meta-bottom .send-tip span {
@@ -8263,7 +8290,10 @@ header {
     text-align: center;
     border: 1px solid #2a2a2a;
     border-radius: 50%;
-    margin-right: 5px; }
+    margin-right: 4px; }
+  .timeline .single-post .meta-bottom .add-bookmark {
+    font-size: 16px;
+    margin-left: auto; }
 
 @media screen and (min-width: 768px) {
   main .left-sidebar, main .right-sidebar, main .timeline {
