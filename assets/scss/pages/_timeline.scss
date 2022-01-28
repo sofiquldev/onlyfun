@@ -1,16 +1,20 @@
 .timelineBG {
   background-color: $lightGray;
 }
-.timeline {
-  // min-height: 50vh;
 
+.timeline {
+  
   // global
   article {
     width: 100%;
+    max-width: 100%;
     background-color: #fff;
     border-radius: 10px;
     padding: 16px;
-    margin: 10px auto;
+    margin: 0 auto 10px;
+    :first{
+      margin-top: 0;
+    }
   }
 
   .writePost {
@@ -26,6 +30,7 @@
     form {
       width: 100%;
       textarea {
+        width: 100%;
         font-size: 16px;
         border: none;
         &::placeholder {

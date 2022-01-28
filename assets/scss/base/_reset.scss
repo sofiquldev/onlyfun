@@ -26,15 +26,6 @@ a {
   }
 }
 
-input, textarea, button {
-  border: none;
-  outline: none;
-  &:focus, &:active {
-    border: none;
-    outline: none;
-  }
-}
-
 img {
   display: block;
   width: 100%;

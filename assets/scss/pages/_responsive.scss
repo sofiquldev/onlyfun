@@ -1,0 +1,47 @@
+main {
+  @include min-mq(768) {
+    .left-sidebar, .right-sidebar, .timeline {
+      padding-top: calc(64px + 13px);
+    }
+  }
+
+  @include mq(768) {
+    .left-sidebar, .right-sidebar {
+      display: none;
+    }
+  }
+  @include mq(768) {
+    .timelineBG {
+      height: auto;
+      overflow-y: hidden;
+      order: 3;
+    }
+  }
+  @include min-mq(768){
+    .timelineBG {
+      height: 100vh;
+      overflow-y: scroll;
+
+      &::-webkit-scrollbar-track {
+        padding: 2px 0;
+        background-color: $lightGray;
+      }
+      
+      &::-webkit-scrollbar {
+        width: 2px;
+      }
+      
+      &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: $lightGray;
+        border: 1px solid $primaryColor;
+      }
+    }
+  }
+}
+@include mq(768) {
+  body {
+    background-color: $lightGray;
+  }
+}
+

@@ -61,6 +61,7 @@
 
   .suggestion {
     width: 100%;
+    min-width: 260px;
     background-color: $lightGray;
     border: none;
     border-radius: 4px;
@@ -76,11 +77,13 @@
         line-height: 16px;
       }
       .actions {
-        a {
+        span {
           padding: 2px;
           color: $primaryTextColor;
           font-size: 14px;
           line-height: 16px;
+          display: inline-block;
+          cursor: pointer;
           &:hover {
             color: $primaryColor;
           }
@@ -149,9 +152,22 @@
           &-type {
             line-height: 32px;
           }
+          @include mq(1024) {
+            width: 80%;
+            &-info {
+              margin-left: -5px;
+            }
+          }
         }
+      }
+      .swiper-slide {
+        padding-bottom: 10px;
       }
     }
   }
 
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $primaryColor;
 }

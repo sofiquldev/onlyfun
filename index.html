@@ -1,255 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "keywords" content = "onlyfan, social tamplate, HTML" >
+  <meta name = "description" content = "Only Fun - HTML Landing Page">
+  <meta name = "author" content = "Sofiqul Islam">
 
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 
   <title>Only Fun - HTML Landing Page</title>
 </head>
+
 <body>
   <!-- header start -->
   <header>
-    
-  </header>
-  <!-- header end -->
-
-  <main>
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-sm-12 col-md-3">
           <!-- Left sidebar start -->
           <aside class="left-sidebar">
             <div class="left-sidebar-header">
-              <div id="menuToggler">
+              <a href="javascript:void(0);" id="menuToggler">
                 <i class="bi bi-list"></i>
-              </div>
-              <a href="#home" class="brand"><img src="assets/images/logo.svg" alt="logo"></a>
+              </a>
+              <a href="javascript:void(0);" class="brand"><img src="assets/images/logo.svg" alt="logo"></a>
+              <a href="javascript:void(0);" id="suggestionToggler">
+                <i class="bi bi-app-indicator"></i>
+              </a>
             </div>
-            <nav>
-              <ul>
-                  <li><a href="#home"><i class="bi bi-house-door-fill"></i> Home</a></li>
-                  <li><a href="#notification"><i class="bi bi-bell"><span>19</span></i> Notification</a></li>
-                  <li><a href="#messages"><i class="bi bi-chat-right-text"></i> Messages</a></li>
-                  <li><a href="#bookmarks"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
-                  <li><a href="#lists"><i class="bi bi-clipboard-check"></i> Lists</a></li>
-                  <li><a href="#subscriptions"><i class="bi bi-person-check"></i> Subscriptions</a></li>
-                  <li><a href="#profile"><i class="bi bi-person-circle"></i> My Profile</a></li>
-
-                  <div id="moreOne" class="collapse">
-                    <li><a href="#notification"><i class="bi bi-bell"><span>19</span></i> Notification</a></li>
-                    <li><a href="#messages"><i class="bi bi-chat-right-text"></i> Messages</a></li>
-                    <li><a href="#bookmarks"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
-                    <li><a href="#lists"><i class="bi bi-clipboard-check"></i> Lists</a></li>
-                    <li><a href="#subscriptions"><i class="bi bi-person-check"></i> Subscriptions</a></li>
-                    <li><a href="#profile"><i class="bi bi-person-circle"></i> My Profile</a></li>
-                  </div>
-
-                  <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#moreOne">
-                    <a href="#more"><span class="circle"><i class="bi bi-three-dots"></i></span> More</a>
-                  </li>
-              </ul> <!-- Nav Top section end -->
-            </nav>
-            <hr>
-            <nav>
-              <h4>Your Shortcut</h4>
-              <ul>
-                <li><a href="#bookmarks"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
-                <li><a href="#lists"><i class="bi bi-clipboard-check"></i> Lists</a></li>
-                <li><a href="#subscriptions"><i class="bi bi-person-check"></i> Subscriptions</a></li>
-                <li><a href="#profile"><i class="bi bi-person-circle"></i> My Profile</a></li>
-
-                <div id="moreTwo" class="collapse">
-                  <li><a href="#notification"><i class="bi bi-bell"><span>19</span></i> Notification</a></li>
-                  <li><a href="#messages"><i class="bi bi-chat-right-text"></i> Messages</a></li>
-                  <li><a href="#bookmarks"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
-                  <li><a href="#lists"><i class="bi bi-clipboard-check"></i> Lists</a></li>
-                  <li><a href="#subscriptions"><i class="bi bi-person-check"></i> Subscriptions</a></li>
-                  <li><a href="#profile"><i class="bi bi-person-circle"></i> My Profile</a></li>
-                </div>
-
-                <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#moreTwo">
-                  <a href="#more"><span class="circle"><i class="bi bi-chevron-down"></i></span> See More</a>
-                </li>
-            </ul> <!-- Nav Top section end -->
-            </nav>
           </aside>
-          <!-- Left sidebar end -->
         </div>
 
-        <div class="col-sm-7 col-md-6 timelineBG">
+        <div class="col-sm-12 col-md-6 timelineBG">
           <!-- timeline area start -->
           <section class="timeline">
             <div class="timeline-header">
               <nav>
                 <ul>
-                  <li><a href="#Home">Home</a></li>
+                  <li><a href="javascript:void(0);">Home</a></li>
                 </ul>
               </nav>
               <div class="actions">
                 <a class="all">All</a>
-                <a href="#edit"><i class="bi bi-pencil-fill"></i></a>
-                <a href="#edit"><i class="bi bi-text-right"></i></a>
+                <a href="javascript:void(0);"><i class="bi bi-pencil-fill"></i></a>
+                <a href="javascript:void(0);"><i class="bi bi-text-right"></i></a>
               </div>
             </div>
-            <!-- write post start -->
-            <article class="writePost">
-              <div class="avater">
-                  <img src="assets/images/avaters/01.png" alt="avater">
-              </div>
-              <form action="#">
-                  <textarea class="form-control" name="post" id="post" cols="30" rows="3" placeholder="What's happening?"></textarea>
-                  <hr>
-                  <div class="action">
-                      <div class="left">
-                          <a href="#"><i class="bi bi-images"></i></a>
-                          <a href="#"><i class="bi bi-person-circle"></i></a>
-                          <a href="#"><i class="bi bi-emoji-smile"></i></a>
-                          <a href="#"><i class="bi bi-geo-alt-fill"></i></a>
-                          <a href="#"><i class="bi bi-three-dots"></i></a>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Post</button>
-                  </div>
-              </form>
-            </article>
-            <!-- Write Post End -->
-
-            <!-- Single Post Item -->
-            <article class="single-post">
-              <div class="meta-top">
-                  <div class="avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
-                  </div>
-                  <div class="user-info">
-                      <h5>Onlyfan</h5>
-                      <p>@onlyfan</p>
-                  </div>
-                  <div class="date">
-                      <p>Yesterday</p>
-                  </div>
-                  <div class="action">
-                      <a href="#"><i class="bi bi-three-dots"></i></a>
-                  </div>
-              </div> <!-- meta-top -->
-
-              <div class="content">
-                  <p>Authentic positivity is the basis of so many good things in life.</p>
-                  <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and maintain friendships, you need authentic positivity. If you want to be happy, you need authentic positivity.</p>
-              </div> <!-- content -->
-              <div class="images">
-                  <img src="assets/images/timeline/01.jpg" alt="post thumb">
-              </div> <!-- images -->
-              <div class="meta-bottom">
-                  <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
-                  <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
-                  <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
-              </div>
-            </article> <!-- single post item -->
-
-            <!-- Single Post Item -->
-            <article class="single-post">
-              <div class="meta-top">
-                  <div class="avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
-                  </div>
-                  <div class="user-info">
-                      <h5>Onlyfan</h5>
-                      <p>@onlyfan</p>
-                  </div>
-                  <div class="date">
-                      <p>Yesterday</p>
-                  </div>
-                  <div class="action">
-                      <a href="#"><i class="bi bi-three-dots"></i></a>
-                  </div>
-              </div> <!-- meta-top -->
-
-              <div class="content">
-                  <p>Authentic positivity is the basis of so many good things in life.</p>
-                  <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and maintain friendships, you need authentic positivity. If you want to be happy, you need authentic positivity.</p>
-              </div> <!-- content -->
-              <div class="images">
-                  <img src="assets/images/timeline/01.jpg" alt="post thumb">
-              </div> <!-- images -->
-              <div class="meta-bottom">
-                  <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
-                  <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
-                  <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
-              </div>
-            </article> <!-- single post item -->
-
-            <!-- Single Post Item -->
-            <article class="single-post">
-              <div class="meta-top">
-                  <div class="avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
-                  </div>
-                  <div class="user-info">
-                      <h5>Onlyfan</h5>
-                      <p>@onlyfan</p>
-                  </div>
-                  <div class="date">
-                      <p>Yesterday</p>
-                  </div>
-                  <div class="action">
-                      <a href="#"><i class="bi bi-three-dots"></i></a>
-                  </div>
-              </div> <!-- meta-top -->
-
-              <div class="content">
-                  <p>Authentic positivity is the basis of so many good things in life.</p>
-                  <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and maintain friendships, you need authentic positivity. If you want to be happy, you need authentic positivity.</p>
-              </div> <!-- content -->
-              <div class="images">
-                  <img src="assets/images/timeline/01.jpg" alt="post thumb">
-              </div> <!-- images -->
-              <div class="meta-bottom">
-                  <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
-                  <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
-                  <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
-              </div>
-            </article> <!-- single post item -->
-
-            <!-- Single Post Item -->
-            <article class="single-post">
-              <div class="meta-top">
-                  <div class="avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
-                  </div>
-                  <div class="user-info">
-                      <h5>Onlyfan</h5>
-                      <p>@onlyfan</p>
-                  </div>
-                  <div class="date">
-                      <p>Yesterday</p>
-                  </div>
-                  <div class="action">
-                      <a href="#"><i class="bi bi-three-dots"></i></a>
-                  </div>
-              </div> <!-- meta-top -->
-
-              <div class="content">
-                  <p>Authentic positivity is the basis of so many good things in life.</p>
-                  <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and maintain friendships, you need authentic positivity. If you want to be happy, you need authentic positivity.</p>
-              </div> <!-- content -->
-              <div class="images">
-                  <img src="assets/images/timeline/01.jpg" alt="post thumb">
-              </div> <!-- images -->
-              <div class="meta-bottom">
-                  <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
-                  <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
-                  <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
-              </div>
-            </article> <!-- single post item -->
-
           </section>
-          <!-- timeline area end -->
         </div>
 
-        <div class=" col-sm-5 col-md-3">
+        <div class="col-md-3 d-none d-md-block">
           <!-- right sidebar start -->
           <aside class="right-sidebar">
             <div class="right-sidebar-header">
@@ -260,69 +66,420 @@
                 </div>
               </form>
             </div>
-            <!-- <hr> -->
+          </aside>
+        </div>
 
-            <div class="suggestion">
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <div class="b-100 d-block d-md-none"></div>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Left sidebar start -->
+          <aside class="left-sidebar" id="left-sidebar">
+            <nav>
+              <ul>
+                <li><a href="javascript:void(0);"><i class="bi bi-house-door-fill"></i> Home</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-bell"><span>19</span></i> Notification</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-chat-right-text"></i> Messages</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-clipboard-check"></i> Lists</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-person-check"></i> Subscriptions</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-person-circle"></i> My Profile</a></li>
+
+                <div id="moreOne" class="collapse">
+                  <li><a href="javascript:void(0);"><i class="bi bi-bell"><span>19</span></i> Notification</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-chat-right-text"></i> Messages</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-clipboard-check"></i> Lists</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-person-check"></i> Subscriptions</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-person-circle"></i> My Profile</a></li>
+                </div>
+
+                <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#moreOne">
+                  <a href="#more"><span class="circle"><i class="bi bi-three-dots"></i></span> More</a>
+                </li>
+              </ul> <!-- Nav Top section end -->
+            </nav>
+            <hr>
+            <nav>
+              <h4>Your Shortcut</h4>
+              <ul>
+                <li><a href="javascript:void(0);"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-clipboard-check"></i> Lists</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-person-check"></i> Subscriptions</a></li>
+                <li><a href="javascript:void(0);"><i class="bi bi-person-circle"></i> My Profile</a></li>
+
+                <div id="moreTwo" class="collapse">
+                  <li><a href="javascript:void(0);"><i class="bi bi-chat-right-text"></i> Messages</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-bookmarks"></i> Bookmarks</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-clipboard-check"></i> Lists</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-person-check"></i> Subscriptions</a></li>
+                  <li><a href="javascript:void(0);"><i class="bi bi-person-circle"></i> My Profile</a></li>
+                </div>
+
+                <li class="collapsed" data-bs-toggle="collapse" data-bs-target="#moreTwo">
+                  <a href="javascript:void(0);"><span class="circle"><i class="bi bi-chevron-down"></i></span> See More</a>
+                </li>
+              </ul> <!-- Nav Top section end -->
+            </nav>
+          </aside>
+          <!-- Left sidebar end -->
+        </div>
+
+        <div class="col-sm-12 col-md-6 timelineBG">
+          <!-- timeline area start -->
+          <section class="timeline">
+            <!-- write post start -->
+            <article class="writePost">
+              <div class="avater">
+                <img src="assets/images/avaters/01.png" alt="avater">
+              </div>
+              <form action="#">
+                <textarea name="post" id="post" cols="30" rows="3"
+                  placeholder="What's happening?"></textarea>
+                <hr>
+                <div class="action">
+                  <div class="left">
+                    <a href="javascript:void(0);"><i class="bi bi-images"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-person-circle"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-emoji-smile"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-geo-alt-fill"></i></a>
+                    <a href="javascript:void(0);"><i class="bi bi-three-dots"></i></a>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Post</button>
+                </div>
+              </form>
+            </article>
+            <!-- Write Post End -->
+
+            <!-- Single Post Item -->
+            <article class="single-post">
+              <div class="meta-top">
+                <div class="avater">
+                  <img src="assets/images/avaters/01.png" alt="avater">
+                </div>
+                <div class="user-info">
+                  <h5>Onlyfan</h5>
+                  <p>@onlyfan</p>
+                </div>
+                <div class="date">
+                  <p>Yesterday</p>
+                </div>
+                <div class="action">
+                  <a href="javascript:void(0);"><i class="bi bi-three-dots"></i></a>
+                </div>
+              </div> <!-- meta-top -->
+
+              <div class="content">
+                <p>Authentic positivity is the basis of so many good things in life.</p>
+                <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and
+                  maintain friendships, you need authentic positivity. If you want to be happy, you need authentic
+                  positivity.</p>
+              </div> <!-- content -->
+              <div class="images">
+                <img src="assets/images/timeline/01.jpg" alt="post thumb">
+              </div> <!-- images -->
+              <div class="meta-bottom">
+                <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
+                <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
+                <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
+              </div>
+            </article> <!-- single post item -->
+
+            <!-- Single Post Item -->
+            <article class="single-post">
+              <div class="meta-top">
+                <div class="avater">
+                  <img src="assets/images/avaters/01.png" alt="avater">
+                </div>
+                <div class="user-info">
+                  <h5>Onlyfan</h5>
+                  <p>@onlyfan</p>
+                </div>
+                <div class="date">
+                  <p>Yesterday</p>
+                </div>
+                <div class="action">
+                  <a href="javascript:void(0);"><i class="bi bi-three-dots"></i></a>
+                </div>
+              </div> <!-- meta-top -->
+
+              <div class="content">
+                <p>Authentic positivity is the basis of so many good things in life.</p>
+                <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and
+                  maintain friendships, you need authentic positivity. If you want to be happy, you need authentic
+                  positivity.</p>
+              </div> <!-- content -->
+              <div class="images">
+                <img src="assets/images/timeline/01.jpg" alt="post thumb">
+              </div> <!-- images -->
+              <div class="meta-bottom">
+                <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
+                <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
+                <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
+              </div>
+            </article> <!-- single post item -->
+
+            <!-- Single Post Item -->
+            <article class="single-post">
+              <div class="meta-top">
+                <div class="avater">
+                  <img src="assets/images/avaters/01.png" alt="avater">
+                </div>
+                <div class="user-info">
+                  <h5>Onlyfan</h5>
+                  <p>@onlyfan</p>
+                </div>
+                <div class="date">
+                  <p>Yesterday</p>
+                </div>
+                <div class="action">
+                  <a href="javascript:void(0);"><i class="bi bi-three-dots"></i></a>
+                </div>
+              </div> <!-- meta-top -->
+
+              <div class="content">
+                <p>Authentic positivity is the basis of so many good things in life.</p>
+                <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and
+                  maintain friendships, you need authentic positivity. If you want to be happy, you need authentic
+                  positivity.</p>
+              </div> <!-- content -->
+              <div class="images">
+                <img src="assets/images/timeline/01.jpg" alt="post thumb">
+              </div> <!-- images -->
+              <div class="meta-bottom">
+                <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
+                <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
+                <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
+              </div>
+            </article> <!-- single post item -->
+
+            <!-- Single Post Item -->
+            <article class="single-post">
+              <div class="meta-top">
+                <div class="avater">
+                  <img src="assets/images/avaters/01.png" alt="avater">
+                </div>
+                <div class="user-info">
+                  <h5>Onlyfan</h5>
+                  <p>@onlyfan</p>
+                </div>
+                <div class="date">
+                  <p>Yesterday</p>
+                </div>
+                <div class="action">
+                  <a href="javascript:void(0);"><i class="bi bi-three-dots"></i></a>
+                </div>
+              </div> <!-- meta-top -->
+
+              <div class="content">
+                <p>Authentic positivity is the basis of so many good things in life.</p>
+                <p>If you want to be able to sell, you need authentic positivity. If you want to be able to build and
+                  maintain friendships, you need authentic positivity. If you want to be happy, you need authentic
+                  positivity.</p>
+              </div> <!-- content -->
+              <div class="images">
+                <img src="assets/images/timeline/01.jpg" alt="post thumb">
+              </div> <!-- images -->
+              <div class="meta-bottom">
+                <a class="like"><i class="bi bi-heart"></i><span>299</span> Likes</a>
+                <a class="comment"><i class="bi bi-chat"></i><span>150</span> Comments</a>
+                <a class="send-tip"><span><i class="bi bi-currency-dollar"></i></span> Send Tip</a>
+              </div>
+            </article> <!-- single post item -->
+
+          </section>
+          <!-- timeline area end -->
+        </div>
+
+        <div class="col-md-3">
+          <!-- right sidebar start -->
+          <aside class="right-sidebar" id="right-sidebar">
+
+            <div class="suggestion swiper mySwiper">
               <div class="suggestion-header">
                 <h4>Suggestions</h4>
-                    <div class="actions">
-                        <a href="#addBookmark"><i class="bi bi-tag"></i></a>
-                        <a href="#reload"><i class="bi bi-arrow-repeat"></i></a>
-                        <a href="#prev"><i class="bi bi-chevron-left"></i></a>
-                        <a href="#next"><i class="bi bi-chevron-right"></i></a>
-                    </div>
+                <div class="actions">
+                  <span><i class="bi bi-tag"></i></span>
+                  <span><i class="bi bi-arrow-repeat"></i></span>
+                  <span class="sliderPrev"><i class="bi bi-chevron-left"></i></span>
+                  <span class="sliderNext"><i class="bi bi-chevron-right"></i></span>
+                </div>
               </div> <!-- suggestion-header -->
 
-              <div class="suggestion-wrapper">
-                <div class="suggestion-wrapper-single" style="background-image: url('assets/images/suggestions/01.png');">
-                  <a href="#" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+              <div class="suggestion-wrapper swiper-wrapper">
+                
+                <div class="swiper-slide">
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
 
-                  <div class="user">
-                    <div class="user-avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
                     </div>
-                    <div class="user-info">
-                      <h5>Kamrul Hasan</h5>
-                      <p>@kamrulhasan</p>
+                  </div> <!-- single -->
+
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
                     </div>
+                  </div> <!-- single -->
 
-                    <div class="user-type">Free</div>
-                  </div>
-                </div> <!-- single -->
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
 
-                <div class="suggestion-wrapper-single" style="background-image: url('assets/images/suggestions/01.png');">
-                  <a href="#" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
 
-                  <div class="user">
-                    <div class="user-avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
+                      <div class="user-type">Free</div>
                     </div>
-                    <div class="user-info">
-                      <h5>Kamrul Hasan</h5>
-                      <p>@kamrulhasan</p>
+                  </div> <!-- single -->
+                </div>
+
+
+                
+                <div class="swiper-slide">
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
                     </div>
+                  </div> <!-- single -->
 
-                    <div class="user-type">Free</div>
-                  </div>
-                </div> <!-- single -->
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
 
-                <div class="suggestion-wrapper-single" style="background-image: url('assets/images/suggestions/01.png');">
-                  <a href="#" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
 
-                  <div class="user">
-                    <div class="user-avater">
-                      <img src="assets/images/avaters/01.png" alt="avater">
+                      <div class="user-type">Free</div>
                     </div>
-                    <div class="user-info">
-                      <h5>Kamrul Hasan</h5>
-                      <p>@kamrulhasan</p>
-                    </div>
+                  </div> <!-- single -->
 
-                    <div class="user-type">Free</div>
-                  </div>
-                </div> <!-- single -->
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
+                    </div>
+                  </div> <!-- single -->
+                </div>
+
+
+                
+                <div class="swiper-slide">
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
+                    </div>
+                  </div> <!-- single -->
+
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
+                    </div>
+                  </div> <!-- single -->
+
+                  <div class="suggestion-wrapper-single"
+                    style="background-image: url('assets/images/suggestions/01.png');">
+                    <a href="javascript:void(0);" class="action"><i class="bi bi-three-dots-vertical"></i></a>
+
+                    <div class="user">
+                      <div class="user-avater">
+                        <img src="assets/images/avaters/01.png" alt="avater">
+                      </div>
+                      <div class="user-info">
+                        <h5>Kamrul Hasan</h5>
+                        <p>@kamrulhasan</p>
+                      </div>
+
+                      <div class="user-type">Free</div>
+                    </div>
+                  </div> <!-- single -->
+                </div>
 
               </div> <!-- suggestion-wrapper -->
+              <div class="swiper-pagination"></div>
             </div> <!-- suggestion -->
           </aside>
           <!-- right sidebar end -->
@@ -335,13 +492,13 @@
   <footer></footer>
 
   <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <script src="assets/js/jquery-ui.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <script src="assets/js/jquery.waypoints.min.js"></script>
-  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <script src="assets/js/scripts.js"></script>
 
 
 </body>
+
 </html>
